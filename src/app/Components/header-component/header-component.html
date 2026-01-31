@@ -1,0 +1,12 @@
+<nav>
+    <div class="TheOne">
+    <img class="img" src="images/saitisicon.png" routerLink="/" alt="icon">
+    <div class="Divan">
+        <a id="Text" class="Text" routerLink="/">{{translations.home}}</a>
+        <a id="Text" class="Text" routerLink="/ContactUs">{{translations.contact}}</a>
+        <a id="Text" class="Text" routerLink="/Members">{{translations.members}}</a>
+        <a id="Text" class="Text" routerLink="/TimeTable">{{translations.silabus}}</a>
+        <button class="Batonchiki" (click)="switchLang()">{{currentLang ==='en' ? 'ქარ' : 'ENG'}}</button>
+    </div>
+</div>
+</nav>

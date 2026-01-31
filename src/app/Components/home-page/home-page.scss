@@ -1,0 +1,390 @@
+.SelfCare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  width: 100%;
+  height: 1200px; /* or any height you want */
+  background-image: 
+    linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7)), /* gradient overlay */
+    url('https://bestcaremn.com/wp-content/uploads/2019/04/Autism-idea-3.png'); /* your background image */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+
+.Section{
+    height: 80px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; ;
+   gap: 10px;
+   transition: box-shadow 0.3s ease;
+}
+
+.Section:hover{
+   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.Section h1{
+    font-size: 1.5rem;
+}
+
+.Color1{
+    background-color: rgba(58, 177, 137,0.7);
+    border: 4px solid rgba(37, 105, 83, 0.7);
+    border-radius: 10px;
+}
+
+.Color2{
+    background-color: rgba(36, 126, 204, 0.9);
+    border: 4px solid rgba(28, 48, 100, 0.7);
+    border-radius: 10px;
+}
+
+.Color3{
+    background-color: rgba(190, 207, 39, 0.9);
+    border: 4px solid rgba(150, 150, 150, 0.7);
+    border-radius: 10px;
+}
+
+.LittleObject{
+    display: flex;
+    gap: 30px;
+
+}
+
+.Logo{
+    height: 50px;
+    width: 50px;
+}
+
+.LogoDiff{
+    height: 65px;
+    width: 70px;
+}
+
+
+.mainText{
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+      flex-direction: column;
+      flex-wrap: wrap;
+}
+
+.Clos{
+    color: rgb(14, 223, 49);
+    font-size: 15px;
+    text-decoration: none;
+    
+}
+
+ul {
+    margin: 10px;
+   width: 100%;
+    max-width: 500px;
+    padding-left: 20px; // optional, to indent bullets
+    line-height: 1.8; // increases vertical spacing
+}
+
+li {
+    margin-bottom: 20px; // adds more space between each bullet
+    text-align: left; // makes the text align nicely under the bullet
+   
+}
+
+a:hover{
+    cursor: pointer;
+}
+
+h1{
+    font-size: 70px;
+    color: white;
+}
+
+button{
+    width: 120px;
+    height: 60px;
+    border: 2px solid rgba(58, 177, 137,0.7);
+    font-size: 15px;
+    color: black;
+    transition: Background-color 0.6s, color 0.6s;
+    background-color: rgba(240, 248, 255,0.9);
+}
+button:hover{
+    cursor: pointer;
+    background-color: rgba(25, 75, 58, 0.7) ;
+    color: aliceblue;
+}
+
+.eich1{
+    font-size: 60px;
+}
+
+.Bardi{
+    font-size: 50px;
+    color: black;
+}
+
+// .centre{
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+
+// }
+
+
+.contente{
+    width: auto;
+    height: auto;
+    padding-top: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column; 
+    gap: 20px;
+}
+
+.bullet {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bullet li{
+    font-size: 18px;
+    color: black;
+    text-align: left;
+}
+
+.aboutUs{
+    font-size: 20px;
+    white-space: normal;
+}
+
+.Pi {
+   width: 100%;
+    max-width: 700px;
+}
+
+
+.Batoni{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+
+
+.duo{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+    padding-top: 20px;
+}
+
+
+
+
+h1{
+    color: black;
+    font-size: 40px;
+}
+
+li{
+    font-size: 20px;
+    color: black;
+}
+
+.info {
+    margin-left: 0;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+
+@media (max-width: 425px) and (min-width: 376px) {
+.SelfCare {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  max-width: 100%;
+  height: 670px; /* or any height you want */
+  background-image: 
+    linear-gradient(to bottom, rgba(0,0,0,0.1), rgba(0,0,0,0.7)), /* gradient overlay */
+    url('https://bestcaremn.com/wp-content/uploads/2019/04/Autism-idea-3.png'); /* your background image */
+  background-size: cover;
+  background-position: center;
+  margin: 0px;
+  background-repeat: no-repeat;
+}
+
+.Section{
+    height: 70px;
+    width: 120px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+   gap: 0px;
+}
+
+.Logo{
+    height: 30px;
+    width: 30px;
+}
+
+.Section h1{
+    font-size: 0.8rem;
+}
+.LogoDiff{
+    height: 40px;
+    width: 45px;
+}
+
+.Bardi{
+    font-size: 35px;
+    
+}
+
+
+ .duo{
+        flex-direction: column;
+        gap: 12px;
+        justify-content: center;
+        align-items: center;
+    }
+
+   .map iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 300px;
+}
+
+.info {
+    margin-left: 0;
+    padding: 0 16px;
+}
+    h1{
+        font-size: 30px;
+    }
+
+    li{
+        font-size: 15px;
+    }
+
+
+    .inform{
+        font-size: 30px;
+    }
+
+
+.mainText{
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+// ul{
+//     margin: 0px;
+//     width: 300px;
+//     padding-left: 15px;
+//     line-height: 1.8;
+// }
+
+li{
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+h1{
+    font-size: 45px;
+}
+
+.eich1{
+    font-size: 40px;
+    margin: 7px;
+    
+}
+
+button{
+    width: 75px;
+    height: 45px;
+    border: 1px solid rgba(58, 177, 137,0.7);
+    font-size: 12px;
+    
+    
+    color: black;
+    transition: Background-color 0.6s, color 0.6s;
+    background-color: rgba(240, 248, 255,0.9);
+}
+
+// .contente{
+//     width: 555px;
+//     height: auto;
+//     padding-top: 60px;
+//     gap: 20px;
+// }
+
+// p{
+//     font-size: 15px;
+//     width: 576px;
+//     padding-left: 35px;
+// }
+
+
+
+
+.contente {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px; // optional for spacing
+}
+
+
+
+
+  .Pi {
+    width: 100%;
+    max-width: 600px; // optional container limit
+}
+
+  }
+
+  ul {
+    width: 100%;
+    padding-left: 15px;
+  }
+
+p {
+    width: 100%;
+}
+
+
+
+
+
+
+    
+
+
+
+//https://bestcaremn.com/wp-content/uploads/2019/04/Autism-idea-3.png
+
+

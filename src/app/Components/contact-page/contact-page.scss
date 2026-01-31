@@ -1,0 +1,31 @@
+.CenterBoi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+video {
+  display: block; /* avoids inline spacing issues */
+  margin: 0;      /* removes default margin */
+  padding: 0;     /* just in case */
+  max-width: 100%; /* responsive */
+  width: 450px;
+  height: 300px;
+}
+
+@media (max-width: 425px) and (min-width: 376px) {
+  .CenterBoi {
+    flex-direction: column;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  video{
+    width: 300px;
+    height: 200px;
+  }
+
+}
